@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+/* font-family: 'Great Vibes', cursive; */
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.btn-custom {
+  background-color: 223F5E;
+  color: #ffffff;
+}
+
+
+.separator {
+  height: 3px;
+  width: 5%;
+  border: none;
+  box-shadow: none;
+  background-color: 223F5E;
+}
+
+/* header */
+.header {
+  background-color: #223F5E;
+  height: 70px;
+  line-height: 70px;
+}
+
+.logo {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 10px;
+  float: center;
+}
+
+.menu {
+  text-align:  right;
+}
+
+img.displayed {
+  display: block;
+  float: left;
+}
+
+.menu a {
+  color: #ffffff;
+  margin-right: 111px;
+}
+
+.menu a:hover {
+  color: 001B8A;
+}
+
+/* bannière */
+
+.banner {
+  width: 100%;
+  max-width: 100%;
+}
+
+.ban {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+}
+
+.ban img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.inner-banner {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.inner-banner h1 {
+  color: #ffffff;
+  text-shadow: 1px 1px 20px #000000;
+}
+
+.vert {
+  color: #ADFF2F;
+}
+
+
+.inner-banner .btn-custom {
+  background-color: 223F5E;
+  color: #ffffff;
+}
+
+.inner-banner .btn-custom:hover {
+  background-color: 001B8A;
+}
+
+/* about */
+
+#about {
+  text-align: center;
+  padding-top: 10%;
+}
+
+.about article {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.about article h2 {
+  text-align: center;
+}
+
+
+
+/* nous */
+
+.nous {
+  background-color: #eeeeee;
+  height: 200px;
+}
+
+#nous {
+  text-align: center;
+}
+
+.nous .item-folio {
+  height:10px;
+  background-color: #223F5E;
+}
